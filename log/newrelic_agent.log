@@ -1,0 +1,1327 @@
+# Logfile created on 2023-03-27 04:10:47 +0530 by logger.rb/66358
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Environment: development
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : No known dispatcher detected.
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Application: development
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing Redis Instrumentation
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing Net:HTTP Wrappers
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing Mongo instrumentation
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing ActiveJob instrumentation
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing notifications based Action Controller instrumentation
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing notification based Action View instrumentation
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Installing notifications based Action Cable instrumentation
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Finished instrumentation
+[2023-03-27 04:10:47 +0530 FWS-CHE-LT-8579 (4251)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Environment: development
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : No known dispatcher detected.
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Application: development
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing Redis Instrumentation
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing Mongo instrumentation
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Finished instrumentation
+[2023-04-01 15:45:27 +0530 FWS-CHE-LT-8579 (38844)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Starting the New Relic agent version 8.0.0 in "qa" environment.
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "qa" section of your newrelic.yml.
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Environment: qa
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : No known dispatcher detected.
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Application: qa
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'qa'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing Redis Instrumentation
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing Mongo instrumentation
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Finished instrumentation
+[2023-04-01 15:45:45 +0530 FWS-CHE-LT-8579 (38902)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Starting the New Relic agent version 8.0.0 in "qa" environment.
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "qa" section of your newrelic.yml.
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Environment: qa
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : No known dispatcher detected.
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Application: qa
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'qa'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing Redis Instrumentation
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing Mongo instrumentation
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 15:46:30 +0530 FWS-CHE-LT-8579 (38945)] INFO : Finished instrumentation
+[2023-04-01 15:46:31 +0530 FWS-CHE-LT-8579 (38945)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 15:47:54 +0530 FWS-CHE-LT-8579 (38950)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 15:47:54 +0530 FWS-CHE-LT-8579 (38950)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 15:47:54 +0530 FWS-CHE-LT-8579 (38950)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 15:48:12 +0530 FWS-CHE-LT-8579 (38950)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 15:48:12 +0530 FWS-CHE-LT-8579 (38950)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 15:48:12 +0530 FWS-CHE-LT-8579 (38950)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 15:48:44 +0530 FWS-CHE-LT-8579 (38950)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 15:48:44 +0530 FWS-CHE-LT-8579 (38950)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 15:48:44 +0530 FWS-CHE-LT-8579 (38950)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 15:48:46 +0530 FWS-CHE-LT-8579 (38950)] INFO : Starting Agent shutdown
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Environment: production
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : No known dispatcher detected.
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Application: production
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing Redis Instrumentation
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing Mongo instrumentation
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 15:48:57 +0530 FWS-CHE-LT-8579 (39552)] INFO : Finished instrumentation
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Environment: production
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : No known dispatcher detected.
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Application: production
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:05:36 +0530 FWS-CHE-LT-8579 (39879)] INFO : Finished instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Environment: production
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : No known dispatcher detected.
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Application: production
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Finished instrumentation
+[2023-04-01 16:09:13 +0530 FWS-CHE-LT-8579 (39971)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Environment: production
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : No known dispatcher detected.
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Application: production
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:09:39 +0530 FWS-CHE-LT-8579 (40408)] INFO : Finished instrumentation
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Environment: production
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : No known dispatcher detected.
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Application: production
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:14:03 +0530 FWS-CHE-LT-8579 (40965)] INFO : Finished instrumentation
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Environment: development
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : No known dispatcher detected.
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Application: development
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:14:30 +0530 FWS-CHE-LT-8579 (40986)] INFO : Finished instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Environment: production
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Environment: development
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : No known dispatcher detected.
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : No known dispatcher detected.
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Application: production
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Application: development
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41021)] INFO : Finished instrumentation
+[2023-04-01 16:15:29 +0530 FWS-CHE-LT-8579 (41020)] INFO : Finished instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Environment: development
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Environment: production
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : No known dispatcher detected.
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : No known dispatcher detected.
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Application: development
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Application: production
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41520)] INFO : Finished instrumentation
+[2023-04-01 16:33:29 +0530 FWS-CHE-LT-8579 (41521)] INFO : Finished instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Environment: development
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Environment: production
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : No known dispatcher detected.
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : No known dispatcher detected.
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Application: development
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Application: production
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41534)] INFO : Finished instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:33:40 +0530 FWS-CHE-LT-8579 (41535)] INFO : Finished instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Environment: production
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Environment: development
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : No known dispatcher detected.
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : No known dispatcher detected.
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Application: development
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Application: production
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41993)] INFO : Finished instrumentation
+[2023-04-01 16:36:50 +0530 FWS-CHE-LT-8579 (41992)] INFO : Finished instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Environment: production
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Environment: development
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : No known dispatcher detected.
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : No known dispatcher detected.
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Application: production
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Application: development
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42299)] INFO : Finished instrumentation
+[2023-04-01 16:43:07 +0530 FWS-CHE-LT-8579 (42298)] INFO : Finished instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Environment: production
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Environment: development
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : No known dispatcher detected.
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : No known dispatcher detected.
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Application: production
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Application: development
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42322)] INFO : Finished instrumentation
+[2023-04-01 16:44:09 +0530 FWS-CHE-LT-8579 (42323)] INFO : Finished instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Environment: development
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Environment: production
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : No known dispatcher detected.
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : No known dispatcher detected.
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Application: development
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Application: production
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42336)] INFO : Finished instrumentation
+[2023-04-01 16:44:26 +0530 FWS-CHE-LT-8579 (42335)] INFO : Finished instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Environment: development
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Environment: production
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : No known dispatcher detected.
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : No known dispatcher detected.
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Application: development
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Application: production
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42352)] INFO : Finished instrumentation
+[2023-04-01 16:44:52 +0530 FWS-CHE-LT-8579 (42353)] INFO : Finished instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Environment: production
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Environment: development
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : No known dispatcher detected.
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : No known dispatcher detected.
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Application: production
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Application: development
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42377)] INFO : Finished instrumentation
+[2023-04-01 16:45:35 +0530 FWS-CHE-LT-8579 (42378)] INFO : Finished instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Environment: production
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Environment: development
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : No known dispatcher detected.
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : No known dispatcher detected.
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Application: production
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Application: development
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42426)] INFO : Finished instrumentation
+[2023-04-01 16:46:56 +0530 FWS-CHE-LT-8579 (42425)] INFO : Finished instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Environment: production
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Environment: development
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : No known dispatcher detected.
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : No known dispatcher detected.
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Application: production
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Application: development
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42439)] INFO : Finished instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:47:15 +0530 FWS-CHE-LT-8579 (42438)] INFO : Finished instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Environment: production
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Environment: development
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : No known dispatcher detected.
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : No known dispatcher detected.
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Application: production
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Application: development
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42463)] INFO : Finished instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:48:19 +0530 FWS-CHE-LT-8579 (42464)] INFO : Finished instrumentation
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Environment: production
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : No known dispatcher detected.
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Application: production
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:49:59 +0530 FWS-CHE-LT-8579 (42567)] INFO : Finished instrumentation
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Environment: production
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : No known dispatcher detected.
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Application: production
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:52:24 +0530 FWS-CHE-LT-8579 (42640)] INFO : Finished instrumentation
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Environment: production
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : No known dispatcher detected.
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Application: production
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:53:28 +0530 FWS-CHE-LT-8579 (42665)] INFO : Finished instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Environment: production
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Environment: development
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : No known dispatcher detected.
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Application: production
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : No known dispatcher detected.
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Application: development
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing Redis Instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing Mongo instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42684)] INFO : Finished instrumentation
+[2023-04-01 16:53:40 +0530 FWS-CHE-LT-8579 (42683)] INFO : Finished instrumentation
+[2023-04-01 17:02:57 +0530 FWS-CHE-LT-8579 (39991)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:02:57 +0530 FWS-CHE-LT-8579 (39991)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:02:57 +0530 FWS-CHE-LT-8579 (39991)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:03:12 +0530 FWS-CHE-LT-8579 (39991)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:03:12 +0530 FWS-CHE-LT-8579 (39991)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:03:12 +0530 FWS-CHE-LT-8579 (39991)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:03:45 +0530 FWS-CHE-LT-8579 (39991)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:03:45 +0530 FWS-CHE-LT-8579 (39991)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:03:45 +0530 FWS-CHE-LT-8579 (39991)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Environment: production
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : No known dispatcher detected.
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Application: production
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:03:51 +0530 FWS-CHE-LT-8579 (42978)] INFO : Finished instrumentation
+[2023-04-01 17:04:47 +0530 FWS-CHE-LT-8579 (39991)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:04:47 +0530 FWS-CHE-LT-8579 (39991)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:04:47 +0530 FWS-CHE-LT-8579 (39991)] INFO : Will re-attempt in 120 seconds
+[2023-04-01 17:05:10 +0530 FWS-CHE-LT-8579 (39989)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:05:10 +0530 FWS-CHE-LT-8579 (39989)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:05:10 +0530 FWS-CHE-LT-8579 (39989)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:05:28 +0530 FWS-CHE-LT-8579 (39989)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:05:28 +0530 FWS-CHE-LT-8579 (39989)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:05:28 +0530 FWS-CHE-LT-8579 (39989)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:06:00 +0530 FWS-CHE-LT-8579 (39989)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:06:00 +0530 FWS-CHE-LT-8579 (39989)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:06:00 +0530 FWS-CHE-LT-8579 (39989)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 17:06:50 +0530 FWS-CHE-LT-8579 (39991)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:06:50 +0530 FWS-CHE-LT-8579 (39991)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:06:50 +0530 FWS-CHE-LT-8579 (39991)] INFO : Will re-attempt in 300 seconds
+[2023-04-01 17:07:01 +0530 FWS-CHE-LT-8579 (39989)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:07:01 +0530 FWS-CHE-LT-8579 (39989)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:07:01 +0530 FWS-CHE-LT-8579 (39989)] INFO : Will re-attempt in 120 seconds
+[2023-04-01 17:09:04 +0530 FWS-CHE-LT-8579 (39989)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:09:04 +0530 FWS-CHE-LT-8579 (39989)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:09:04 +0530 FWS-CHE-LT-8579 (39989)] INFO : Will re-attempt in 300 seconds
+[2023-04-01 17:11:52 +0530 FWS-CHE-LT-8579 (39991)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:11:52 +0530 FWS-CHE-LT-8579 (39991)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:11:52 +0530 FWS-CHE-LT-8579 (39991)] INFO : Will re-attempt in 300 seconds
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Environment: production
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Environment: development
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : No known dispatcher detected.
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : No known dispatcher detected.
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Application: production
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Application: development
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43219)] INFO : Finished instrumentation
+[2023-04-01 17:12:11 +0530 FWS-CHE-LT-8579 (43220)] INFO : Finished instrumentation
+[2023-04-01 17:12:56 +0530 FWS-CHE-LT-8579 (39989)] INFO : Starting Agent shutdown
+[2023-04-01 17:12:56 +0530 FWS-CHE-LT-8579 (39991)] INFO : Starting Agent shutdown
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Environment: production
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : No known dispatcher detected.
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Application: production
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Finished instrumentation
+[2023-04-01 17:13:03 +0530 FWS-CHE-LT-8579 (43377)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:13:19 +0530 FWS-CHE-LT-8579 (43384)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:13:19 +0530 FWS-CHE-LT-8579 (43384)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:13:21 +0530 FWS-CHE-LT-8579 (43384)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:13:21 +0530 FWS-CHE-LT-8579 (43384)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:13:21 +0530 FWS-CHE-LT-8579 (43384)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:13:39 +0530 FWS-CHE-LT-8579 (43384)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:13:39 +0530 FWS-CHE-LT-8579 (43384)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:13:39 +0530 FWS-CHE-LT-8579 (43384)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:14:12 +0530 FWS-CHE-LT-8579 (43384)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:14:12 +0530 FWS-CHE-LT-8579 (43384)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:14:12 +0530 FWS-CHE-LT-8579 (43384)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 17:14:21 +0530 FWS-CHE-LT-8579 (43385)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:14:21 +0530 FWS-CHE-LT-8579 (43385)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:14:23 +0530 FWS-CHE-LT-8579 (43385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:14:23 +0530 FWS-CHE-LT-8579 (43385)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:14:23 +0530 FWS-CHE-LT-8579 (43385)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:14:39 +0530 FWS-CHE-LT-8579 (43385)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:14:39 +0530 FWS-CHE-LT-8579 (43385)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:14:39 +0530 FWS-CHE-LT-8579 (43385)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:14:44 +0530 FWS-CHE-LT-8579 (43385)] INFO : Starting Agent shutdown
+[2023-04-01 17:14:44 +0530 FWS-CHE-LT-8579 (43384)] INFO : Starting Agent shutdown
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Environment: development
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : No known dispatcher detected.
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Application: development
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Finished instrumentation
+[2023-04-01 17:14:54 +0530 FWS-CHE-LT-8579 (43507)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:15:01 +0530 FWS-CHE-LT-8579 (43513)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:15:01 +0530 FWS-CHE-LT-8579 (43513)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:15:04 +0530 FWS-CHE-LT-8579 (43513)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:15:04 +0530 FWS-CHE-LT-8579 (43513)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:15:04 +0530 FWS-CHE-LT-8579 (43513)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:15:21 +0530 FWS-CHE-LT-8579 (43513)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:15:21 +0530 FWS-CHE-LT-8579 (43513)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:15:21 +0530 FWS-CHE-LT-8579 (43513)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:15:54 +0530 FWS-CHE-LT-8579 (43513)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:15:54 +0530 FWS-CHE-LT-8579 (43513)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:15:54 +0530 FWS-CHE-LT-8579 (43513)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 17:16:05 +0530 FWS-CHE-LT-8579 (43513)] INFO : Starting Agent shutdown
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : Environment: development
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : No known dispatcher detected.
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : Application: development
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:16:12 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:16:13 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:16:13 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:16:13 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:16:13 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:16:13 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:16:13 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:16:13 +0530 FWS-CHE-LT-8579 (44022)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:16:13 +0530 FWS-CHE-LT-8579 (44022)] INFO : Finished instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Environment: development
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : No known dispatcher detected.
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Application: development
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Finished instrumentation
+[2023-04-01 17:16:46 +0530 FWS-CHE-LT-8579 (44066)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:17:13 +0530 FWS-CHE-LT-8579 (44078)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:17:13 +0530 FWS-CHE-LT-8579 (44078)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:17:13 +0530 FWS-CHE-LT-8579 (44078)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:17:31 +0530 FWS-CHE-LT-8579 (44078)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:17:31 +0530 FWS-CHE-LT-8579 (44078)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:17:31 +0530 FWS-CHE-LT-8579 (44078)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:18:03 +0530 FWS-CHE-LT-8579 (44078)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:18:03 +0530 FWS-CHE-LT-8579 (44078)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:18:03 +0530 FWS-CHE-LT-8579 (44078)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 17:18:30 +0530 FWS-CHE-LT-8579 (44078)] INFO : Starting Agent shutdown
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Environment: development
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : No known dispatcher detected.
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Application: development
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Finished instrumentation
+[2023-04-01 17:18:39 +0530 FWS-CHE-LT-8579 (44182)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:18:54 +0530 FWS-CHE-LT-8579 (44195)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:18:54 +0530 FWS-CHE-LT-8579 (44195)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:18:54 +0530 FWS-CHE-LT-8579 (44195)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:19:12 +0530 FWS-CHE-LT-8579 (44195)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:19:12 +0530 FWS-CHE-LT-8579 (44195)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:19:12 +0530 FWS-CHE-LT-8579 (44195)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:19:43 +0530 FWS-CHE-LT-8579 (44195)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:19:43 +0530 FWS-CHE-LT-8579 (44195)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:19:43 +0530 FWS-CHE-LT-8579 (44195)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 17:19:54 +0530 FWS-CHE-LT-8579 (44195)] INFO : Starting Agent shutdown
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Environment: development
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : No known dispatcher detected.
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Application: development
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Finished instrumentation
+[2023-04-01 17:20:01 +0530 FWS-CHE-LT-8579 (44300)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:20:08 +0530 FWS-CHE-LT-8579 (44309)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:20:08 +0530 FWS-CHE-LT-8579 (44309)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:20:08 +0530 FWS-CHE-LT-8579 (44309)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:20:26 +0530 FWS-CHE-LT-8579 (44309)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:20:26 +0530 FWS-CHE-LT-8579 (44309)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:20:26 +0530 FWS-CHE-LT-8579 (44309)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:20:36 +0530 FWS-CHE-LT-8579 (44309)] INFO : Starting Agent shutdown
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Environment: development
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : No known dispatcher detected.
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Application: development
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Finished instrumentation
+[2023-04-01 17:20:44 +0530 FWS-CHE-LT-8579 (44380)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:20:50 +0530 FWS-CHE-LT-8579 (44389)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:20:50 +0530 FWS-CHE-LT-8579 (44389)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:20:50 +0530 FWS-CHE-LT-8579 (44389)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:21:07 +0530 FWS-CHE-LT-8579 (44389)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:21:07 +0530 FWS-CHE-LT-8579 (44389)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:21:07 +0530 FWS-CHE-LT-8579 (44389)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:21:11 +0530 FWS-CHE-LT-8579 (44389)] INFO : Starting Agent shutdown
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Environment: development
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : No known dispatcher detected.
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Application: development
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Finished instrumentation
+[2023-04-01 17:21:19 +0530 FWS-CHE-LT-8579 (44457)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:21:29 +0530 FWS-CHE-LT-8579 (44464)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:21:29 +0530 FWS-CHE-LT-8579 (44464)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:21:29 +0530 FWS-CHE-LT-8579 (44464)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:21:46 +0530 FWS-CHE-LT-8579 (44464)] INFO : Starting Agent shutdown
+[2023-04-01 17:21:46 +0530 FWS-CHE-LT-8579 (44464)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:21:46 +0530 FWS-CHE-LT-8579 (44464)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:21:46 +0530 FWS-CHE-LT-8579 (44464)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Environment: development
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : No known dispatcher detected.
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Application: development
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Finished instrumentation
+[2023-04-01 17:21:55 +0530 FWS-CHE-LT-8579 (44547)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:21:58 +0530 FWS-CHE-LT-8579 (44558)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:21:58 +0530 FWS-CHE-LT-8579 (44558)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:21:58 +0530 FWS-CHE-LT-8579 (44558)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 17:22:31 +0530 FWS-CHE-LT-8579 (44558)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:22:31 +0530 FWS-CHE-LT-8579 (44558)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:22:31 +0530 FWS-CHE-LT-8579 (44558)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 17:23:22 +0530 FWS-CHE-LT-8579 (44558)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:23:22 +0530 FWS-CHE-LT-8579 (44558)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:23:22 +0530 FWS-CHE-LT-8579 (44558)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 17:24:25 +0530 FWS-CHE-LT-8579 (44558)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:24:25 +0530 FWS-CHE-LT-8579 (44558)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:24:25 +0530 FWS-CHE-LT-8579 (44558)] INFO : Will re-attempt in 120 seconds
+[2023-04-01 17:26:28 +0530 FWS-CHE-LT-8579 (44558)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:26:28 +0530 FWS-CHE-LT-8579 (44558)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:26:28 +0530 FWS-CHE-LT-8579 (44558)] INFO : Will re-attempt in 300 seconds
+[2023-04-01 17:31:31 +0530 FWS-CHE-LT-8579 (44558)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:31:31 +0530 FWS-CHE-LT-8579 (44558)] ERROR : NewRelic::Agent::ServerConnectionException: 503: Service Unavailable
+[2023-04-01 17:31:31 +0530 FWS-CHE-LT-8579 (44558)] INFO : Will re-attempt in 300 seconds
+[2023-04-01 17:36:31 +0530 FWS-CHE-LT-8579 (44558)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:36:31 +0530 FWS-CHE-LT-8579 (44558)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:36:31 +0530 FWS-CHE-LT-8579 (44558)] INFO : Will re-attempt in 300 seconds
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Environment: development
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : No known dispatcher detected.
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Application: development
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:40:33 +0530 FWS-CHE-LT-8579 (45222)] INFO : Finished instrumentation
+[2023-04-01 17:41:34 +0530 FWS-CHE-LT-8579 (44558)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 17:41:34 +0530 FWS-CHE-LT-8579 (44558)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 17:41:34 +0530 FWS-CHE-LT-8579 (44558)] INFO : Will re-attempt in 300 seconds
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Environment: production
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : No known dispatcher detected.
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Application: production
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:41:47 +0530 FWS-CHE-LT-8579 (45279)] INFO : Finished instrumentation
+[2023-04-01 17:42:07 +0530 FWS-CHE-LT-8579 (44558)] INFO : Starting Agent shutdown
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Starting the New Relic agent version 8.0.0 in "production" environment.
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Environment: production
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : No known dispatcher detected.
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Application: production
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Finished instrumentation
+[2023-04-01 17:42:20 +0530 FWS-CHE-LT-8579 (45332)] INFO : Doing deferred dependency-detection before Rack startup
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Starting the New Relic agent version 8.0.0 in "development" environment.
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] WARN : No configuration file found. Working directory = /Users/akumar6/Downloads/platform-master
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] WARN : Looked in these locations (based on defaults): /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/config/newrelic.yml, /Users/akumar6/Downloads/platform-master/newrelic.yml, /Users/akumar6/Downloads/platform-master/config/newrelic.yml.erb, /Users/akumar6/Downloads/platform-master/newrelic.yml.erb, /Users/akumar6/.newrelic/newrelic.yml, /Users/akumar6/newrelic.yml, /Users/akumar6/.newrelic/newrelic.yml.erb, /Users/akumar6/newrelic.yml.erb
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Environment: development
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : No known dispatcher detected.
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Application: development
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing Redis Instrumentation
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing Net:HTTP Wrappers
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing Rails 3+ middleware instrumentation
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing Mongo instrumentation
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing ActiveJob instrumentation
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing notifications based Action Controller instrumentation
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing notification based Action View instrumentation
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Installing notifications based Action Cable instrumentation
+[2023-04-01 17:43:38 +0530 FWS-CHE-LT-8579 (45375)] INFO : Finished instrumentation
+[2023-04-01 18:05:50 +0530 FWS-CHE-LT-8579 (45337)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 18:05:50 +0530 FWS-CHE-LT-8579 (45337)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 18:05:50 +0530 FWS-CHE-LT-8579 (45337)] INFO : Will re-attempt in 15 seconds
+[2023-04-01 18:06:07 +0530 FWS-CHE-LT-8579 (45337)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 18:06:07 +0530 FWS-CHE-LT-8579 (45337)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 18:06:07 +0530 FWS-CHE-LT-8579 (45337)] INFO : Will re-attempt in 30 seconds
+[2023-04-01 18:06:40 +0530 FWS-CHE-LT-8579 (45337)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 18:06:40 +0530 FWS-CHE-LT-8579 (45337)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 18:06:40 +0530 FWS-CHE-LT-8579 (45337)] INFO : Will re-attempt in 60 seconds
+[2023-04-01 18:07:43 +0530 FWS-CHE-LT-8579 (45337)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2023-04-01 18:07:43 +0530 FWS-CHE-LT-8579 (45337)] ERROR : NewRelic::Agent::ForceRestartException: 401: Unauthorized, restarting.
+[2023-04-01 18:07:43 +0530 FWS-CHE-LT-8579 (45337)] INFO : Will re-attempt in 120 seconds
+[2023-04-01 18:09:16 +0530 FWS-CHE-LT-8579 (45337)] INFO : Starting Agent shutdown

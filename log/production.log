@@ -1,0 +1,753 @@
+D, [2023-04-01T16:45:39.273662 #42396] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2023-04-01T16:45:39.279335 #42396] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-01T16:45:39.279909 #42396] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:45:39.280717 #42396] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:45:39.281526 #42396] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:45:39.282190 #42396] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=ReplicaSetNoPrimary[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017,name=atlas-hoca24-shard-0] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 UNKNOWN>]>
+D, [2023-04-01T16:45:39.969435 #42396] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T16:45:39.971074 #42396] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-01T16:45:39.971842 #42396] DEBUG -- : MONGODB | Waiting for up to 29.31 seconds for servers to be scanned: #<Cluster topology=ReplicaSetNoPrimary[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017,name=atlas-hoca24-shard-0] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 SECONDARY replica_set=atlas-hoca24-shard-0 pool=#<ConnectionPool size=0 (0-20) used=0 avail=0 pending=0>>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 UNKNOWN>]>
+D, [2023-04-01T16:45:39.988230 #42396] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T16:45:39.989046 #42396] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-01T16:45:39.989600 #42396] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T16:45:39.990016 #42396] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+D, [2023-04-01T16:45:40.164250 #42396] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T16:45:40.164924 #42396] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:45:40.165718 #42396] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 conn:1:1 sconn:66300 | admin.saslStart | STARTED | {}
+D, [2023-04-01T16:45:40.202633 #42396] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 | admin.saslStart | SUCCEEDED | 0.037s
+D, [2023-04-01T16:45:40.211555 #42396] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 conn:1:1 sconn:66300 | admin.saslContinue | STARTED | {}
+D, [2023-04-01T16:45:40.253075 #42396] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 | admin.saslContinue | SUCCEEDED | 0.041s
+D, [2023-04-01T16:45:40.254603 #42396] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 conn:1:1 sconn:66300 | admin.find | STARTED | {"find"=>"dummy", "filter"=>{}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"admin", "lsid"=>{"id"=><BSON::Binary:0x70311140979980 type=uuid data=0x036a74f4d2eb46f0...>}}
+D, [2023-04-01T16:45:40.295303 #42396] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 | admin.find | FAILED | [8000:AtlasError]: (Unauthorized) not authorized on admin to execute command { find: "dummy", $db: "admin", filter: {  }, limit: 1, sort: { _id: 1 }, lsid: { id: {4 [3 106 116 244 210 235 70 240 145 63 1 190 37 112 5 173]} } } | 0.03796799998963252s
+D, [2023-04-01T16:45:50.023373 #42396] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T16:45:50.025121 #42396] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:45:50.035297 #42396] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T16:45:50.036256 #42396] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:45:50.037872 #42396] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T16:45:50.038932 #42396] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:48:26.307775 #42489] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2023-04-01T16:48:26.309809 #42489] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2023-04-01T16:48:26.310360 #42489] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:48:26.311223 #42489] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:48:26.312412 #42489] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:48:26.313573 #42489] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 UNKNOWN>]>
+D, [2023-04-01T16:48:27.019072 #42489] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T16:48:27.020943 #42489] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-01T16:48:27.021747 #42489] DEBUG -- : MONGODB | Waiting for up to 29.29 seconds for servers to be scanned: #<Cluster topology=ReplicaSetNoPrimary[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017,name=atlas-hoca24-shard-0] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 SECONDARY replica_set=atlas-hoca24-shard-0 pool=#<ConnectionPool size=0 (0-15) used=0 avail=0 pending=0>>]>
+D, [2023-04-01T16:48:27.038642 #42489] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T16:48:27.039212 #42489] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-01T16:48:27.039626 #42489] DEBUG -- : MONGODB | Waiting for up to 29.27 seconds for servers to be scanned: #<Cluster topology=ReplicaSetNoPrimary[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017,name=atlas-hoca24-shard-0] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 SECONDARY replica_set=atlas-hoca24-shard-0 pool=#<ConnectionPool size=0 (0-15) used=0 avail=0 pending=0>>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 SECONDARY replica_set=atlas-hoca24-shard-0 pool=#<ConnectionPool size=0 (0-15) used=0 avail=0 pending=0>>]>
+D, [2023-04-01T16:48:27.052944 #42489] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T16:48:27.053350 #42489] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+D, [2023-04-01T16:48:27.256115 #42489] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T16:48:27.258215 #42489] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:48:27.260525 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 conn:1:1 sconn:66946 | admin.saslStart | STARTED | {}
+D, [2023-04-01T16:48:27.299894 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 | admin.saslStart | SUCCEEDED | 0.038s
+D, [2023-04-01T16:48:27.311579 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 conn:1:1 sconn:66946 | admin.saslContinue | STARTED | {}
+D, [2023-04-01T16:48:27.362616 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 | admin.saslContinue | SUCCEEDED | 0.051s
+D, [2023-04-01T16:48:27.363507 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 conn:1:1 sconn:66946 | sandboxcluster0.find | STARTED | {"find"=>"dummy", "filter"=>{}, "limit"=>1, "sort"=>{"_id"=>1}, "$db"=>"sandboxcluster0", "lsid"=>{"id"=><BSON::Binary:0x70138518866360 type=uuid data=0xe46790d61cd94a49...>}}
+D, [2023-04-01T16:48:27.402252 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 | sandboxcluster0.find | SUCCEEDED | 0.039s
+D, [2023-04-01T16:48:37.067366 #42489] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T16:48:37.069280 #42489] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:48:37.085444 #42489] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T16:48:37.086750 #42489] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:48:37.097455 #42489] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T16:48:37.098716 #42489] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:48:46.111055 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:16 conn:1:1 sconn:66946 | sandboxcluster0.insert | STARTED | {"insert"=>"dummy", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('64281316e5bbbca5f9fda7be'), "updated_at"=>2023-04-01 11:18:46 UTC, "created_at"=>2023-04-01 11:18:46 UTC}], "$db"=>"sandboxcluster0", "$clusterTime"=>{"clusterTime"=>#<BSON::Ti...
+D, [2023-04-01T16:48:46.271230 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:16 | sandboxcluster0.insert | SUCCEEDED | 0.159s
+D, [2023-04-01T16:49:11.192979 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:26 conn:1:1 sconn:66946 | sandboxcluster0.insert | STARTED | {"insert"=>"dummy", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('6428132fe5bbbca5f9fda7bf'), "data"=>"My first data", "updated_at"=>2023-04-01 11:19:11 UTC, "created_at"=>2023-04-01 11:19:11 UTC}], "$db"=>"sandboxcluster0", "$clusterTime"=>{...
+D, [2023-04-01T16:49:11.236486 #42489] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:26 | sandboxcluster0.insert | SUCCEEDED | 0.043s
+D, [2023-04-01T16:50:15.557101 #42582] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2023-04-01T16:50:15.559245 #42582] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2023-04-01T16:50:15.559786 #42582] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:50:15.560600 #42582] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:50:15.561562 #42582] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T16:50:15.562648 #42582] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 UNKNOWN>]>
+D, [2023-04-01T16:50:16.262726 #42582] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T16:50:16.265307 #42582] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-01T16:50:16.266220 #42582] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T16:50:16.266832 #42582] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-01T16:50:16.267489 #42582] DEBUG -- : MONGODB | Waiting for up to 29.29 seconds for servers to be scanned: #<Cluster topology=ReplicaSetNoPrimary[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017,name=atlas-hoca24-shard-0] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 SECONDARY replica_set=atlas-hoca24-shard-0 pool=#<ConnectionPool size=0 (0-15) used=0 avail=0 pending=0>>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 SECONDARY replica_set=atlas-hoca24-shard-0 pool=#<ConnectionPool size=0 (0-15) used=0 avail=0 pending=0>>]>
+D, [2023-04-01T16:50:16.294740 #42582] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T16:50:16.295265 #42582] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+D, [2023-04-01T16:50:16.463260 #42582] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T16:50:16.464137 #42582] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:50:16.465391 #42582] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 conn:1:1 sconn:67299 | admin.saslStart | STARTED | {}
+D, [2023-04-01T16:50:16.504318 #42582] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 | admin.saslStart | SUCCEEDED | 0.038s
+D, [2023-04-01T16:50:16.515726 #42582] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 conn:1:1 sconn:67299 | admin.saslContinue | STARTED | {}
+D, [2023-04-01T16:50:16.555931 #42582] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 | admin.saslContinue | SUCCEEDED | 0.040s
+D, [2023-04-01T16:50:16.560777 #42582] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 conn:1:1 sconn:67299 | sandboxcluster0.insert | STARTED | {"insert"=>"dummy", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('64281370e5bbbca656097900'), "data"=>"My first data", "data1"=>"asdfghj", "updated_at"=>2023-04-01 11:20:15 UTC, "created_at"=>2023-04-01 11:20:15 UTC}], "$db"=>"sandboxcluster0...
+D, [2023-04-01T16:50:16.604594 #42582] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 | sandboxcluster0.insert | SUCCEEDED | 0.042s
+D, [2023-04-01T16:50:26.313091 #42582] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T16:50:26.314212 #42582] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:50:26.314907 #42582] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T16:50:26.315220 #42582] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:50:26.358857 #42582] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T16:50:26.360351 #42582] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T16:50:34.131292 #42582] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:16 conn:1:1 sconn:67299 | sandboxcluster0.insert | STARTED | {"insert"=>"dummy", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('64281382e5bbbca656097901'), "data"=>"My first daDDDta", "data1"=>"asdfghj", "updated_at"=>2023-04-01 11:20:34 UTC, "created_at"=>2023-04-01 11:20:34 UTC}], "$db"=>"sandboxclust...
+D, [2023-04-01T16:50:34.179250 #42582] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:16 | sandboxcluster0.insert | SUCCEEDED | 0.047s
+I, [2023-04-01T17:13:19.034165 #43384]  INFO -- : [9063b607-3af6-4c91-b2c1-b016643e1fbc] Started GET "/dummy" for 127.0.0.1 at 2023-04-01 17:13:19 +0530
+F, [2023-04-01T17:13:19.045114 #43384] FATAL -- : [9063b607-3af6-4c91-b2c1-b016643e1fbc]   
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] OmniAuth::NoSessionError (You must provide a session to use OmniAuth.):
+[9063b607-3af6-4c91-b2c1-b016643e1fbc]   
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] omniauth (2.1.1) lib/omniauth/strategy.rb:180:in `call!'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] omniauth (2.1.1) lib/omniauth/strategy.rb:169:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] omniauth (2.1.1) lib/omniauth/builder.rb:44:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/rack/agent_hooks.rb:30:in `traced_call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/rack/browser_monitoring.rb:33:in `traced_call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] rack-attack (6.5.0) lib/rack/attack.rb:113:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] rack (2.2.4) lib/rack/etag.rb:27:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] rack (2.2.4) lib/rack/head.rb:12:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] activesupport (6.0.6) lib/active_support/callbacks.rb:101:in `run_callbacks'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[9063b607-3af6-4c91-b2c1-b016643e1fbc] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2023-04-01T17:14:08.638990 #43384]  INFO -- : [18c43728-01f5-4b95-8a05-ff943f2b12a6] Started GET "/dummy" for 127.0.0.1 at 2023-04-01 17:14:08 +0530
+F, [2023-04-01T17:14:08.644921 #43384] FATAL -- : [18c43728-01f5-4b95-8a05-ff943f2b12a6]   
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] OmniAuth::NoSessionError (You must provide a session to use OmniAuth.):
+[18c43728-01f5-4b95-8a05-ff943f2b12a6]   
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] omniauth (2.1.1) lib/omniauth/strategy.rb:180:in `call!'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] omniauth (2.1.1) lib/omniauth/strategy.rb:169:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] omniauth (2.1.1) lib/omniauth/builder.rb:44:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/rack/agent_hooks.rb:30:in `traced_call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/rack/browser_monitoring.rb:33:in `traced_call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] rack-attack (6.5.0) lib/rack/attack.rb:113:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] rack (2.2.4) lib/rack/etag.rb:27:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] rack (2.2.4) lib/rack/head.rb:12:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] activesupport (6.0.6) lib/active_support/callbacks.rb:101:in `run_callbacks'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[18c43728-01f5-4b95-8a05-ff943f2b12a6] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2023-04-01T17:14:21.278530 #43385]  INFO -- : [3c8716d9-c688-4162-a83c-d2dc9fa9f967] Started GET "/dummy" for 127.0.0.1 at 2023-04-01 17:14:21 +0530
+F, [2023-04-01T17:14:21.281558 #43385] FATAL -- : [3c8716d9-c688-4162-a83c-d2dc9fa9f967]   
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] OmniAuth::NoSessionError (You must provide a session to use OmniAuth.):
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967]   
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] omniauth (2.1.1) lib/omniauth/strategy.rb:180:in `call!'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] omniauth (2.1.1) lib/omniauth/strategy.rb:169:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] omniauth (2.1.1) lib/omniauth/builder.rb:44:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/rack/agent_hooks.rb:30:in `traced_call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/rack/browser_monitoring.rb:33:in `traced_call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] rack-attack (6.5.0) lib/rack/attack.rb:113:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] rack (2.2.4) lib/rack/etag.rb:27:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] rack (2.2.4) lib/rack/head.rb:12:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] activesupport (6.0.6) lib/active_support/callbacks.rb:101:in `run_callbacks'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] newrelic_rpm (8.0.0) lib/new_relic/agent/instrumentation/middleware_tracing.rb:101:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[3c8716d9-c688-4162-a83c-d2dc9fa9f967] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+D, [2023-04-01T17:41:53.264396 #45283] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2023-04-01T17:41:53.268000 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2023-04-01T17:41:53.268752 #45283] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T17:41:53.269534 #45283] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T17:41:53.270295 #45283] DEBUG -- : MONGODB | Server ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T17:41:53.270929 #45283] DEBUG -- : MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 UNKNOWN>]>
+D, [2023-04-01T17:41:53.907296 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T17:41:53.909461 #45283] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-01T17:41:53.910501 #45283] DEBUG -- : MONGODB | Waiting for up to 29.36 seconds for servers to be scanned: #<Cluster topology=ReplicaSetNoPrimary[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017,name=atlas-hoca24-shard-0] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 SECONDARY replica_set=atlas-hoca24-shard-0 pool=#<ConnectionPool size=0 (0-15) used=0 avail=0 pending=0>>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 UNKNOWN>]>
+D, [2023-04-01T17:41:53.927889 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T17:41:53.928776 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-01T17:41:53.929329 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T17:41:53.929747 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+D, [2023-04-01T17:41:54.137379 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T17:41:54.139099 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T17:41:54.140765 #45283] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 conn:1:1 sconn:79042 | admin.saslStart | STARTED | {}
+D, [2023-04-01T17:41:54.180175 #45283] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 | admin.saslStart | SUCCEEDED | 0.038s
+D, [2023-04-01T17:41:54.193707 #45283] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 conn:1:1 sconn:79042 | admin.saslContinue | STARTED | {}
+D, [2023-04-01T17:41:54.231611 #45283] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 | admin.saslContinue | SUCCEEDED | 0.037s
+D, [2023-04-01T17:41:54.235215 #45283] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 conn:1:1 sconn:79042 | sandboxcluster0.insert | STARTED | {"insert"=>"dummy", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('64281f8ae5bbbcb0e31d4c39'), "updated_at"=>2023-04-01 12:11:53 UTC, "created_at"=>2023-04-01 12:11:53 UTC}], "$db"=>"sandboxcluster0", "txnNumber"=>#<BSON::Int64:0x00007fdc542d7...
+D, [2023-04-01T17:41:54.298082 #45283] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 | sandboxcluster0.insert | SUCCEEDED | 0.062s
+D, [2023-04-01T17:42:03.955615 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T17:42:03.959216 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T17:42:03.975276 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T17:42:03.977469 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T17:42:03.978596 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T17:42:03.979382 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T17:43:03.860706 #45283] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:31 conn:1:1 sconn:79042 | sandboxcluster0.find | STARTED | {"find"=>"dummy", "filter"=>{"_id"=>BSON::ObjectId('64281316e5bbbca5f9fda7be')}, "$db"=>"sandboxcluster0", "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x00007fdc5432b648 @seconds=1680351114, @increment=51>, "signature"=>{"hash"=><BSON::Binary:0x...
+D, [2023-04-01T17:43:03.904007 #45283] DEBUG -- : MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:31 | sandboxcluster0.find | SUCCEEDED | 0.043s
+I, [2023-04-01T18:05:39.848839 #45337]  INFO -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] Started GET "/dummy" for 127.0.0.1 at 2023-04-01 18:05:39 +0530
+I, [2023-04-01T18:05:39.852233 #45337]  INFO -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] Processing by DummyController#index as */*
+D, [2023-04-01T18:05:39.859756 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | Topology type 'unknown' initializing.
+D, [2023-04-01T18:05:39.860918 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | There was a change in the members of the 'Unknown' topology.
+D, [2023-04-01T18:05:39.861559 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | Server ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T18:05:39.911771 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | Server ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T18:05:39.922005 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | Server ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 initializing.
+D, [2023-04-01T18:05:39.922741 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | Waiting for up to 29.94 seconds for servers to be scanned: #<Cluster topology=Unknown[ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017,ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017] servers=[#<Server address=ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 UNKNOWN>,#<Server address=ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 UNKNOWN>]>
+D, [2023-04-01T18:05:40.656017 #45337] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T18:05:40.691065 #45337] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-01T18:05:40.712632 #45337] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T18:05:40.729925 #45337] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+D, [2023-04-01T18:05:40.740798 #45337] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T18:05:40.741281 #45337] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T18:05:40.942999 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T18:05:40.946137 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T18:05:40.949614 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 conn:1:1 sconn:85150 | admin.saslStart | STARTED | {}
+D, [2023-04-01T18:05:40.994283 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:10 | admin.saslStart | SUCCEEDED | 0.040s
+D, [2023-04-01T18:05:41.008726 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 conn:1:1 sconn:85150 | admin.saslContinue | STARTED | {}
+D, [2023-04-01T18:05:42.039760 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:11 | admin.saslContinue | SUCCEEDED | 1.026s
+D, [2023-04-01T18:05:42.048159 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 conn:1:1 sconn:85150 | sandboxcluster0.find | STARTED | {"find"=>"dummy", "filter"=>{}, "$db"=>"sandboxcluster0", "lsid"=>{"id"=><BSON::Binary:0x70253451519020 type=uuid data=0xd516bffbfd554e9a...>}}
+D, [2023-04-01T18:05:42.099417 #45337] DEBUG -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] MONGODB | ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 req:12 | sandboxcluster0.find | SUCCEEDED | 0.050s
+I, [2023-04-01T18:05:42.103624 #45337]  INFO -- : [124e4e4c-4591-4ad4-bc9c-58cb5f1cc98f] Completed 200 OK in 2250ms (Views: 0.4ms | MongoDB: 1.1ms | Allocations: 11337)
+D, [2023-04-01T18:05:50.759745 #45337] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T18:05:50.760822 #45337] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T18:05:50.785242 #45337] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T18:05:50.787114 #45337] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T18:05:50.788793 #45337] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T18:05:50.792917 #45337] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T18:33:55.428808 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:57999)
+D, [2023-04-01T18:33:55.433142 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T18:33:55.434120 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T18:33:55.458685 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:55549)
+D, [2023-04-01T18:33:55.459873 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T18:33:55.461117 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T18:33:55.462197 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:79093)
+D, [2023-04-01T18:33:55.463975 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-01T18:33:55.464657 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-01T19:05:47.580930 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T19:05:47.581902 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+D, [2023-04-01T19:05:47.608755 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T19:05:47.609546 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T19:05:47.959273 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T19:05:47.962523 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T19:10:51.390651 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017)
+W, [2023-04-01T19:10:51.788776 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017)
+W, [2023-04-01T19:10:52.082881 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017)
+W, [2023-04-01T19:21:21.822068 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:102534)
+D, [2023-04-01T19:21:21.824238 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-01T19:21:21.825231 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+W, [2023-04-01T19:21:21.857584 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:72321)
+D, [2023-04-01T19:21:21.859272 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T19:21:21.860070 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-01T19:21:22.178735 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T19:21:22.180529 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-01T19:21:22.211366 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:74856)
+D, [2023-04-01T19:21:22.211941 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T19:21:22.212405 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T19:21:22.898462 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T19:21:22.900598 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T19:21:23.471815 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T19:21:23.472621 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T19:26:25.528118 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017)
+W, [2023-04-01T19:59:22.369688 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:78212)
+D, [2023-04-01T19:59:22.371743 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T19:59:22.373136 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T19:59:22.983738 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T19:59:22.984452 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T19:59:23.189749 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:107208)
+D, [2023-04-01T19:59:23.190475 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-01T19:59:23.190987 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-01T19:59:23.375213 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T19:59:23.376768 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-01T19:59:23.694195 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017)
+W, [2023-04-01T19:59:23.738602 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:75673)
+D, [2023-04-01T19:59:23.740613 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T19:59:23.741682 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T19:59:23.952350 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T19:59:23.954094 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T19:59:24.422414 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017)
+W, [2023-04-01T20:50:08.508730 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:86016)
+D, [2023-04-01T20:50:08.516332 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T20:50:08.519529 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T20:50:08.526040 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:117957)
+D, [2023-04-01T20:50:08.527447 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-01T20:50:08.527933 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+W, [2023-04-01T20:50:08.885990 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:83490)
+D, [2023-04-01T20:50:08.888165 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T20:50:08.924589 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-01T20:50:08.943705 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T20:50:08.964696 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-01T20:50:09.035997 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T20:50:09.041250 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+D, [2023-04-01T20:50:09.269576 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T20:50:09.272737 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T21:25:44.829360 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017)
+W, [2023-04-01T21:37:52.580902 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:94857)
+D, [2023-04-01T21:37:52.581282 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T21:37:52.581464 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T21:37:53.117228 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T21:37:53.118836 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T21:37:53.491732 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:133639)
+D, [2023-04-01T21:37:53.493003 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-01T21:37:53.493788 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-01T21:37:53.810806 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-01T21:37:53.826167 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-01T21:37:54.314517 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:97408)
+D, [2023-04-01T21:37:54.315429 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-01T21:37:54.315976 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T21:37:54.897042 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-01T21:37:54.897780 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T21:38:02.119650 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017)
+W, [2023-04-01T21:38:02.342186 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Failed to read an awaited hello response in 25 seconds
+D, [2023-04-01T21:38:03.216667 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T21:38:03.217510 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T21:38:03.915956 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-01T21:38:03.918368 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-01T21:38:04.994804 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-01T21:38:04.996199 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-01T23:42:24.774030 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017)
+W, [2023-04-02T01:37:49.220231 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:108526)
+D, [2023-04-02T01:37:49.224054 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+W, [2023-04-02T01:37:49.225562 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:148967)
+D, [2023-04-02T01:37:49.226276 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T01:37:49.227436 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-02T01:37:49.228308 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-02T01:37:52.484639 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-02T01:37:52.485659 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+D, [2023-04-02T01:37:52.485942 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T01:37:52.486114 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T01:38:00.328420 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:105965)
+D, [2023-04-02T01:38:00.331718 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T01:38:00.332789 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T01:38:00.552653 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T01:38:00.554997 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T01:38:02.533275 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-02T01:38:02.535038 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T01:38:02.539080 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-02T01:38:02.540592 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T02:11:59.898950 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:196995)
+D, [2023-04-02T02:11:59.901119 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T02:11:59.902011 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T02:12:00.380364 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T02:12:00.402162 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T02:12:01.185336 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:194450)
+D, [2023-04-02T02:12:01.193077 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T02:12:01.193668 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T02:12:01.429217 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T02:12:01.430018 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T02:12:02.378730 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:254724)
+D, [2023-04-02T02:12:02.379926 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-02T02:12:02.380663 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-02T02:12:02.578891 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-02T02:12:02.579942 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-02T02:29:59.989655 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017)
+W, [2023-04-02T02:30:01.821147 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Failed to read an awaited hello response in 25 seconds
+W, [2023-04-02T02:30:01.842082 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017)
+W, [2023-04-02T03:03:21.025408 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:207280)
+D, [2023-04-02T03:03:21.026037 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T03:03:21.026354 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T03:03:21.678200 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T03:03:21.680437 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T03:03:22.016794 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:269158)
+D, [2023-04-02T03:03:22.019113 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-02T03:03:22.020259 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-02T03:03:22.204959 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-02T03:03:22.232692 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-02T03:03:23.523699 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:209903)
+D, [2023-04-02T03:03:23.525089 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T03:03:23.526076 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T03:03:23.724867 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T03:03:23.726810 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T03:53:25.001107 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:227549)
+D, [2023-04-02T03:53:25.002794 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T03:53:25.003622 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T03:53:25.084321 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:288519)
+D, [2023-04-02T03:53:25.085925 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-02T03:53:25.086762 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-02T03:53:25.320442 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T03:53:25.340848 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-02T03:53:25.374742 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-02T03:53:25.398114 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-02T03:53:27.317375 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:224910)
+D, [2023-04-02T03:53:27.318594 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T03:53:27.320244 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T03:53:28.559837 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T03:53:28.562313 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T04:10:04.388262 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017)
+W, [2023-04-02T04:10:04.917263 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017)
+W, [2023-04-02T04:26:25.956648 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017)
+W, [2023-04-02T04:41:55.291011 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:243511)
+D, [2023-04-02T04:41:55.292920 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T04:41:55.293743 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T04:41:55.573935 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:310395)
+D, [2023-04-02T04:41:55.575308 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-02T04:41:55.576103 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-02T04:41:55.592266 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T04:41:55.594455 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+W, [2023-04-02T04:41:55.817581 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:246136)
+D, [2023-04-02T04:41:55.832689 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T04:41:55.837882 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-02T04:41:56.057998 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T04:41:56.061581 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetNoPrimary' topology.
+D, [2023-04-02T04:41:56.190288 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-02T04:41:56.218814 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-02T05:31:39.602229 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:259255)
+D, [2023-04-02T05:31:39.603763 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T05:31:39.604222 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T05:31:39.822870 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T05:31:39.823512 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T05:31:40.471535 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:328449)
+D, [2023-04-02T05:31:40.472948 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-02T05:31:40.474159 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-02T05:31:40.658090 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-02T05:31:40.659067 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-02T05:31:41.188408 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:261921)
+D, [2023-04-02T05:31:41.189104 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T05:31:41.189533 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T05:31:41.386325 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T05:31:41.387103 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T05:49:26.271878 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Failed to read an awaited hello response in 25 seconds
+W, [2023-04-02T05:49:26.733986 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Failed to read an awaited hello response in 25 seconds
+W, [2023-04-02T05:49:26.856606 #45283]  WARN -- : MONGODB | Error running awaited hello on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 25 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017)
+W, [2023-04-02T06:11:21.045146 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.140.152:27017 (ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017, sconn:270361)
+D, [2023-04-02T06:11:21.053081 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T06:11:21.056215 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T06:11:21.399455 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T06:11:21.400426 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+W, [2023-04-02T06:11:21.876780 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.89.64:27017 (ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017, sconn:342091)
+D, [2023-04-02T06:11:21.881266 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'unknown'.
+D, [2023-04-02T06:11:21.898959 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetWithPrimary' changed to type 'ReplicaSetNoPrimary'.
+D, [2023-04-02T06:11:22.208645 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'unknown' to 'primary'.
+D, [2023-04-02T06:11:22.235413 #45283] DEBUG -- : MONGODB | Topology type 'ReplicaSetNoPrimary' changed to type 'ReplicaSetWithPrimary'.
+W, [2023-04-02T06:11:22.605003 #45283]  WARN -- : MONGODB | Error checking ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017: Mongo::Error::SocketTimeoutError: Errno::ETIMEDOUT: Operation timed out - Took more than 15 seconds to receive data (select call timed out) (for 13.232.126.14:27017 (ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, TLS)) (on ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017, sconn:273026)
+D, [2023-04-02T06:11:22.606202 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'unknown'.
+D, [2023-04-02T06:11:22.607043 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T06:11:22.883224 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'unknown' to 'secondary'.
+D, [2023-04-02T06:11:22.913568 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T06:11:31.464891 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-02.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-02T06:11:31.466770 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T06:11:32.292211 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-01.iakzytv.mongodb.net:27017 changed from 'primary' to 'primary'.
+D, [2023-04-02T06:11:32.295057 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+D, [2023-04-02T06:11:32.990271 #45283] DEBUG -- : MONGODB | Server description for ac-27jgogi-shard-00-00.iakzytv.mongodb.net:27017 changed from 'secondary' to 'secondary'.
+D, [2023-04-02T06:11:32.992584 #45283] DEBUG -- : MONGODB | There was a change in the members of the 'ReplicaSetWithPrimary' topology.
+I, [2023-04-02T06:51:34.748146 #53241]  INFO -- : [8b555bc9-1666-498a-be82-b778973712cc] Started POST "/api/v1/users" for 127.0.0.1 at 2023-04-02 06:51:34 +0530
+F, [2023-04-02T06:51:34.750172 #53241] FATAL -- : [8b555bc9-1666-498a-be82-b778973712cc]   
+[8b555bc9-1666-498a-be82-b778973712cc] ActionController::RoutingError (No route matches [POST] "/api/v1/users"):
+[8b555bc9-1666-498a-be82-b778973712cc]   
+[8b555bc9-1666-498a-be82-b778973712cc] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[8b555bc9-1666-498a-be82-b778973712cc] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[8b555bc9-1666-498a-be82-b778973712cc] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[8b555bc9-1666-498a-be82-b778973712cc] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[8b555bc9-1666-498a-be82-b778973712cc] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[8b555bc9-1666-498a-be82-b778973712cc] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[8b555bc9-1666-498a-be82-b778973712cc] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[8b555bc9-1666-498a-be82-b778973712cc] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[8b555bc9-1666-498a-be82-b778973712cc] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[8b555bc9-1666-498a-be82-b778973712cc] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[8b555bc9-1666-498a-be82-b778973712cc] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2023-04-02T06:53:19.412437 #53606]  INFO -- : [06cf02f7-13eb-490f-bcbd-60087a7ce6cd] Started POST "/api/v1/users" for 127.0.0.1 at 2023-04-02 06:53:19 +0530
+F, [2023-04-02T06:53:19.413584 #53606] FATAL -- : [06cf02f7-13eb-490f-bcbd-60087a7ce6cd]   
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] ActionController::RoutingError (No route matches [POST] "/api/v1/users"):
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd]   
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[06cf02f7-13eb-490f-bcbd-60087a7ce6cd] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2023-04-02T06:53:44.607448 #53642]  INFO -- : [5cf606fd-2a52-4de0-953f-735741c86297] Started POST "/api/v1/users" for 127.0.0.1 at 2023-04-02 06:53:44 +0530
+F, [2023-04-02T06:53:44.609701 #53642] FATAL -- : [5cf606fd-2a52-4de0-953f-735741c86297]   
+[5cf606fd-2a52-4de0-953f-735741c86297] ActionController::RoutingError (No route matches [POST] "/api/v1/users"):
+[5cf606fd-2a52-4de0-953f-735741c86297]   
+[5cf606fd-2a52-4de0-953f-735741c86297] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[5cf606fd-2a52-4de0-953f-735741c86297] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[5cf606fd-2a52-4de0-953f-735741c86297] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[5cf606fd-2a52-4de0-953f-735741c86297] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[5cf606fd-2a52-4de0-953f-735741c86297] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[5cf606fd-2a52-4de0-953f-735741c86297] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[5cf606fd-2a52-4de0-953f-735741c86297] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[5cf606fd-2a52-4de0-953f-735741c86297] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[5cf606fd-2a52-4de0-953f-735741c86297] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[5cf606fd-2a52-4de0-953f-735741c86297] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[5cf606fd-2a52-4de0-953f-735741c86297] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2023-04-02T06:54:29.871626 #53642]  INFO -- : [6efd10ff-17d3-44fa-a9b8-7d705649b218] Started POST "/api/v1/users" for 127.0.0.1 at 2023-04-02 06:54:29 +0530
+F, [2023-04-02T06:54:29.873080 #53642] FATAL -- : [6efd10ff-17d3-44fa-a9b8-7d705649b218]   
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] ActionController::RoutingError (No route matches [POST] "/api/v1/users"):
+[6efd10ff-17d3-44fa-a9b8-7d705649b218]   
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[6efd10ff-17d3-44fa-a9b8-7d705649b218] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2023-04-02T06:55:31.500487 #53842]  INFO -- : [e445349a-da17-4ae4-bf24-d8d24a9a89f0] Started POST "/api/v1/users" for 127.0.0.1 at 2023-04-02 06:55:31 +0530
+F, [2023-04-02T06:55:31.501447 #53842] FATAL -- : [e445349a-da17-4ae4-bf24-d8d24a9a89f0]   
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] ActionController::RoutingError (No route matches [POST] "/api/v1/users"):
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0]   
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[e445349a-da17-4ae4-bf24-d8d24a9a89f0] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2023-04-02T06:56:19.969980 #53842]  INFO -- : [d355c18b-2e25-40be-96fd-aa35bee94f4e] Started POST "/api/v1/users/signup" for 127.0.0.1 at 2023-04-02 06:56:19 +0530
+F, [2023-04-02T06:56:19.993167 #53842] FATAL -- : [d355c18b-2e25-40be-96fd-aa35bee94f4e]   
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] ActionController::RoutingError (uninitialized constant Api):
+[d355c18b-2e25-40be-96fd-aa35bee94f4e]   
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/http/request.rb:81:in `controller_class'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/journey/router.rb:32:in `each'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/routing/route_set.rb:834:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] rack-attack (6.5.0) lib/rack/attack.rb:113:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] rack (2.2.4) lib/rack/etag.rb:27:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] rack (2.2.4) lib/rack/head.rb:12:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] activesupport (6.0.6) lib/active_support/callbacks.rb:101:in `run_callbacks'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[d355c18b-2e25-40be-96fd-aa35bee94f4e] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+I, [2023-04-02T07:03:40.045116 #53840]  INFO -- : [687636f3-bf94-45ac-b1d8-e0c60594fa8a] Started POST "/" for 127.0.0.1 at 2023-04-02 07:03:40 +0530
+F, [2023-04-02T07:03:40.046605 #53840] FATAL -- : [687636f3-bf94-45ac-b1d8-e0c60594fa8a]   
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] ActionController::RoutingError (No route matches [POST] "/"):
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a]   
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] actionpack (6.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] actionpack (6.0.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] railties (6.0.6) lib/rails/rack/logger.rb:37:in `call_app'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] railties (6.0.6) lib/rails/rack/logger.rb:26:in `block in call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] activesupport (6.0.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] activesupport (6.0.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] railties (6.0.6) lib/rails/rack/logger.rb:26:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] actionpack (6.0.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] request_store (1.5.1) lib/request_store/middleware.rb:19:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] actionpack (6.0.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] activesupport (6.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] actionpack (6.0.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] actionpack (6.0.6) lib/action_dispatch/middleware/host_authorization.rb:97:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] railties (6.0.6) lib/rails/engine.rb:527:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] puma (5.5.2) lib/puma/configuration.rb:249:in `call'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] puma (5.5.2) lib/puma/request.rb:77:in `block in handle_request'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] puma (5.5.2) lib/puma/server.rb:447:in `process_client'
+[687636f3-bf94-45ac-b1d8-e0c60594fa8a] puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'

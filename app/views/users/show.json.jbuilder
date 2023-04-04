@@ -1,0 +1,2 @@
+byebug
+json.user @user
